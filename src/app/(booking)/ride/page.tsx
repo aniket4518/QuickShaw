@@ -67,7 +67,7 @@ export default function Ride(){
                         </div>
                     </div>
 
-                    {/* Middle Column - Booking Options (Add People + Select Mode + Book) */}
+                     
                     <div className="w-1/3 flex-shrink-0">
                         {/* Add People Section */}
                         <div className="mb-8">
@@ -128,8 +128,8 @@ export default function Ride(){
                                     }`}
                                 >
                                     <div className="flex items-center gap-3">
-                                        {/* E-Auto Icon */}
-                                        <div className="w-[50px] h-[50px] bg-gradient-to-br from-yellow-300 to-yellow-400 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0">
+                                       
+                                        <div className="w-[50px] h-[50px] bg-white rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0">
                                             <img src="/goldenauto.png" alt="E-Auto" className="w-full h-full object-contain p-2" />
                                         </div>
                                         <div>
@@ -151,7 +151,7 @@ export default function Ride(){
                                 >
                                     <div className="flex items-center gap-3">
                                         {/* Rickshaw Icon */}
-                                        <div className="w-[50px] h-[50px] bg-gradient-to-br from-green-300 to-green-400 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0">
+                                        <div className="w-[50px] h-[50px] bg-white rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0">
                                             <img src="/goldenauto.png" alt="Rickshaw" className="w-full h-full object-contain p-2" />
                                         </div>
                                         <div>
