@@ -3,10 +3,25 @@ import { useState } from 'react'
 import ComplaintSection from './ComplaintSection'
 
 export default function ComplaintForm({ onClose }:any) {
-    const [selectedRide, setSelectedRide] = useState(null)
+    type Ride = {
+        id: number
+        from: string
+        to: string
+        driver: string
+        vehicle: string
+        vehicleNumber: string
+        fare: string
+        time: string
+        date: string
+        fullDate: string
+        sharedBy: string
+        rating: string
+    }
+
+    const [selectedRide, setSelectedRide] = useState<Ride | null>(null)
     const [showComplaintSection, setShowComplaintSection] = useState(false)
 
-    const rides = [
+    const rides: Ride[] = [
         {
             id: 1,
             from: "Aryabhatta Hostel, IIT BHU, Varanasi",
@@ -23,23 +38,24 @@ export default function ComplaintForm({ onClose }:any) {
         },
         {
             id: 2,
-            from: "Aryabhatta Hostel, IIT BHU, Varanasi",
-            to: "Swatantrata Bhawan, BHU, Varanasi", 
-            driver: "shyam Gupta",
+            from: "Institute Gate, BHU, Varanasi",
+            to: "Kashi Vishwanath Temple, Varanasi",
+            driver: "Suresh Kumar",
             vehicle: "E-Auto",
-            vehicleNumber: "UP 65BQ 1462",
+            vehicleNumber: "UP 65AX 2020",
             fare: "₹35",
-            time: "12:30 pm",
+            time: "01:15 pm",
             date: "Friday",
             fullDate: "24-09-25",
-            sharedBy: "3 users",
-            rating: "90.01"
+            sharedBy: "2 users",
+            rating: "88.50"
         }
     ]
 
-    const handleRaiseComplaint = (rideId:any) => {
+    const handleRaiseComplaint = (rideId: number) => {
         const ride = rides.find(r => r.id === rideId)
-        // @ts-ignore
+        if (!ride) return
+
         setSelectedRide(ride)
         setShowComplaintSection(true)
     }
