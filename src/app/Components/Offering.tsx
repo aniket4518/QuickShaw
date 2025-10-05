@@ -99,6 +99,7 @@ export default function Offering(){
                           height="clamp(50px, 10vh, 85px)"
                           fontSize="clamp(1rem, 4vw, 2rem)"
                           className="font-[Archivo] font-semibold leading-[1.4] tracking-[0.05em] align-middle mt-[3vh] sm:mt-[5vh] lg:mt-[2.438rem] w-[80vw] sm:w-[60vw] md:w-[50vw] lg:w-[25rem] max-w-[400px]"
+                          onClick={() => {}}
                         >
                           Coming Soon
                         </Buttons>
@@ -145,12 +146,12 @@ export default function Offering(){
                             Ensuring Safety
                         </div>
                         <div className="w-full max-w-[80%] ml-0 lg:ml-[10.375rem] mt-[2.5rem]">
-                            <span className="text-[1.5rem] sm:text-[1.8rem] lg:text-[2rem] font-medium text-black leading-[1.4] tracking-[0.05em]">Full-time access to nearest emergency contact facilities like Police stations, proctor office, ambulance, & post-ride feedback facility for every driver.</span>
-                            <Buttons 
+              <Buttons 
                 width="clamp(200px, 50vw, 400px)"
                 height="clamp(50px, 10vh, 85px)"
                 fontSize="clamp(1rem, 4vw, 2rem)"
                 className="font-[Archivo] font-semibold leading-[1.4] tracking-[0.05em] align-middle mt-[3vh] sm:mt-[5vh] lg:mt-[2.438rem] w-[80vw] sm:w-[60vw] md:w-[50vw] lg:w-[25rem] max-w-[400px]"
+                onClick={() => {}}
               >
                 know more
               </Buttons>
@@ -187,6 +188,7 @@ export default function Offering(){
                           height="clamp(50px, 10vh, 85px)"
                           fontSize="clamp(1rem, 4vw, 2rem)"
                           className="font-[Archivo] font-semibold leading-[1.4] tracking-[0.05em] align-middle mt-[3vh] sm:mt-[5vh] lg:mt-[2.438rem] w-[80vw] sm:w-[60vw] md:w-[50vw] lg:w-[25rem] max-w-[400px]"
+                          onClick={() => {}}
                         >
                           Coming Soon
                         </Buttons>
