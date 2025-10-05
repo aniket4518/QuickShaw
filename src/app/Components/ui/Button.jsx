@@ -5,7 +5,7 @@ const Buttons = ({
     height = '3.125rem',    // Default 50px converted to rem
     fontSize = '2rem',      // Default 32px converted to rem
     children,
-    onClick,
+    onClick = () => {},     // Default empty function
     className = '',
     ...props 
 }) => {
