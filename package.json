@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "type-check": "tsc --noEmit",
+    "tsc:build": "tsc -p tsconfig.build.json",
     "lint": "next lint"
   },
   "dependencies": {

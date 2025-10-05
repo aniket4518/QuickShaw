@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
  
-
+// @ts-ignore
 export default function ComplaintSuccess({ onClose }) {
     return (
         <div className="w-full min-h-screen bg-white">

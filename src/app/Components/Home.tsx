@@ -4,6 +4,7 @@ import Download from "./Download"
 import Social from "./Social"
 import Footer from "./Footer"
 import Complaint from "./Complaint"
+import Link from "next/link"
 export default function Home() {
   return (
     <div className="w-full h-full">
@@ -91,7 +92,7 @@ export default function Home() {
           </div>
         </div>
 
-         
+         <Link href="/ride"> 
         <button 
           className="h-[12vh] sm:h-[14vh] lg:h-[16vh] min-h-[80px] max-h-[140px]
                      w-[90%] max-w-[56.9375rem] 
@@ -109,6 +110,7 @@ export default function Home() {
         >
           Ride now
         </button>
+        </Link>
       </div>
       <Offering/>
       <Download/>

@@ -24,7 +24,7 @@ export default function Complaint(){
                                      resize-none focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent
                                      bg-gray-50 hover:bg-gray-100 transition-colors duration-300"
                             placeholder="Happy to listen to you..."
-                            rows="6"
+                            rows={6}
                         />
                     </div>
 

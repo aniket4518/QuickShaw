@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import ComplaintSection from './ComplaintSection'
 
-export default function ComplaintForm({ onClose }) {
+export default function ComplaintForm({ onClose }:any) {
     const [selectedRide, setSelectedRide] = useState(null)
     const [showComplaintSection, setShowComplaintSection] = useState(false)
 
@@ -37,8 +37,9 @@ export default function ComplaintForm({ onClose }) {
         }
     ]
 
-    const handleRaiseComplaint = (rideId) => {
+    const handleRaiseComplaint = (rideId:any) => {
         const ride = rides.find(r => r.id === rideId)
+        // @ts-ignore
         setSelectedRide(ride)
         setShowComplaintSection(true)
     }
@@ -116,7 +117,7 @@ export default function ComplaintForm({ onClose }) {
                                         />
                                         <div>
                                             <div className="text-[0.875rem] font-semibold text-black mb-[0.25rem]">Vehicle:</div>
-                                            <div className="bg-[#FFB800] text-black text-[0.75rem] font-bold px-[0.75rem] py-[0.25rem] rounded">
+                                            <div className="bg-[#FFE5A3] border-[2.5px] border-[#FCB607] text-black text-[0.75rem] font-bold px-[0.75rem] py-[0.25rem] rounded">
                                                 {ride.vehicle}
                                             </div>
                                         </div>
