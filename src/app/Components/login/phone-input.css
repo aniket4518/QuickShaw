@@ -1,0 +1,20 @@
+/* Phone Input Custom Styles using Tailwind */
+.custom-phone-input .PhoneInputInput {
+  @apply border-0 rounded-none h-auto px-4 sm:px-5 lg:px-6 text-sm sm:text-base lg:text-lg transition-all duration-300 bg-transparent outline-none;
+}
+
+.custom-phone-input .PhoneInputInput:focus {
+  @apply outline-none border-0;
+}
+
+.custom-phone-input .PhoneInputCountrySelect {
+  @apply border-0 rounded-none h-auto px-3 mr-2 bg-transparent transition-all duration-300 outline-none;
+}
+
+.custom-phone-input .PhoneInputCountrySelect:focus {
+  @apply outline-none border-0;
+}
+
+.custom-phone-input .PhoneInputCountrySelect:hover {
+  @apply bg-transparent;
+}

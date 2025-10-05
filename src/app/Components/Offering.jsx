@@ -17,54 +17,58 @@ export default function Offering(){
             </div>
             
             {/* Cards Container */}
-            <div className="w-full bg-red-500 flex flex-row justify-between items-center gap-[0.5rem] sm:gap-[1rem] lg:gap-[1.375rem] min-h-[50vh] sm:min-h-[60vh] lg:min-h-[69.48vh] mt-[1.375rem]  px-[2%] sm:px-[4%] lg:px-[6%] xl:px-[8%]">
+            <div className="w-full bg-white flex flex-row justify-between items-center gap-[0.5rem] sm:gap-[1rem] lg:gap-[1.375rem] min-h-[30vh] sm:min-h-[40vh] lg:min-h-[50vh] mt-[1.375rem] px-[1%] sm:px-[2%] lg:px-[3%] xl:px-[4%]">
                 
                 {/* Card 1 */}
-                <div className="w-[22%] sm:w-[23%] md:w-[22%] lg:w-[20%] xl:w-[22%]
-                               h-[12rem] sm:h-[18rem] lg:h-[28.5625rem] 
-                               bg-white rounded-lg shadow-lg flex flex-col justify-center items-center
+                <div className="w-[24%] sm:w-[24%] md:w-[24%] lg:w-[23%] xl:w-[24%]
+                               h-[8rem] sm:h-[12rem] md:h-[16rem] lg:h-[20rem] xl:h-[28.5625rem] 
+                               bg-white rounded-lg shadow-lg overflow-hidden
                                border border-gray-200 hover:shadow-xl transition-shadow duration-300
-                               max-w-[300px]">
-                    {/* <div className="text-center h-full p-2 sm:p-4">
-                        <h3 className="text-sm sm:text-lg font-bold mb-1 sm:mb-2">Card 1</h3>
-                        <p className="text-xs sm:text-sm text-gray-600">Content</p>
-                    </div> */}
+                               min-h-[120px]">
+                    <img 
+                        src="/Frame1.png" 
+                        alt="Frame 1" 
+                        className="w-full h-full object-cover"
+                    />
                 </div>
 
                 {/* Card 2 */}
-                <div className="w-[22%] sm:w-[23%] md:w-[22%] lg:w-[20%] xl:w-[22%]
-                               h-[12rem] sm:h-[18rem] lg:h-[28.5625rem] 
-                               bg-white rounded-lg shadow-lg flex flex-col justify-center items-center
+                <div className="w-[24%] sm:w-[24%] md:w-[24%] lg:w-[23%] xl:w-[24%]
+                               h-[8rem] sm:h-[12rem] md:h-[16rem] lg:h-[20rem] xl:h-[28.5625rem] 
+                               bg-white rounded-lg shadow-lg overflow-hidden
                                border border-gray-200 hover:shadow-xl transition-shadow duration-300
-                               max-w-[300px]">
-                    <div className="text-center p-2 sm:p-4">
-                        <h3 className="text-sm sm:text-lg font-bold mb-1 sm:mb-2">Card 2</h3>
-                        <p className="text-xs sm:text-sm text-gray-600">Content</p>
-                    </div>
+                               min-h-[120px]">
+                    <img 
+                        src="/Frame2.png" 
+                        alt="Frame 2" 
+                        className="w-full h-full object-cover"
+                    />
                 </div>
 
                 {/* Card 3 */}
-                <div className="w-[22%] sm:w-[23%] md:w-[22%] lg:w-[20%] xl:w-[22%]
-                               h-[12rem] sm:h-[18rem] lg:h-[28.5625rem] 
-                               bg-white rounded-lg shadow-lg flex flex-col justify-center items-center
+                <div className="w-[24%] sm:w-[24%] md:w-[24%] lg:w-[23%] xl:w-[24%]
+                               h-[8rem] sm:h-[12rem] md:h-[16rem] lg:h-[20rem] xl:h-[28.5625rem] 
+                               bg-white rounded-lg shadow-lg overflow-hidden
                                border border-gray-200 hover:shadow-xl transition-shadow duration-300
-                               max-w-[300px]">
-                    <div className="text-center p-2 sm:p-4">
-                        <h3 className="text-sm sm:text-lg font-bold mb-1 sm:mb-2">Card 3</h3>
-                        <p className="text-xs sm:text-sm text-gray-600">Content</p>
-                    </div>
+                               min-h-[120px]">
+                    <img 
+                        src="/Frame3.png" 
+                        alt="Frame 3" 
+                        className="w-full h-full object-cover"
+                    />
                 </div>
 
                 {/* Card 4 */}
-                <div className="w-[22%] sm:w-[23%] md:w-[22%] lg:w-[20%] xl:w-[22%]
-                               h-[12rem] sm:h-[18rem] lg:h-[28.5625rem] 
-                               bg-white rounded-lg shadow-lg flex flex-col justify-center items-center
+                <div className="w-[24%] sm:w-[24%] md:w-[24%] lg:w-[23%] xl:w-[24%]
+                               h-[8rem] sm:h-[12rem] md:h-[16rem] lg:h-[20rem] xl:h-[28.5625rem] 
+                               bg-white rounded-lg shadow-lg overflow-hidden
                                border border-gray-200 hover:shadow-xl transition-shadow duration-300
-                               max-w-[300px]">
-                    <div className="text-center p-2 sm:p-4">
-                        <h3 className="text-sm sm:text-lg font-bold mb-1 sm:mb-2">Card 4</h3>
-                        <p className="text-xs sm:text-sm text-gray-600">Content</p>
-                    </div>
+                               min-h-[120px]">
+                    <img 
+                        src="/Frame4.png" 
+                        alt="Frame 4" 
+                        className="w-full h-full object-cover"
+                    />
                 </div>
                 
 
@@ -102,11 +106,11 @@ export default function Offering(){
                 </div>
 
                 {/* QuickShaw Auto Service Image - Responsive */}
-                <div className="w-[45vw] sm:w-[40vw] md:w-[35vw] lg:w-[32.0625rem]
+                <div className="w-full sm:w-[60vw] md:w-[50vw] lg:w-[32.0625rem]
                               h-[20vh] sm:h-[22vh] md:h-[25vh] lg:h-[26.25rem]
                               min-w-[200px] max-w-[600px]
                               min-h-[150px] max-h-[500px]
-                              flex-shrink-0 mt-[2rem]">
+                              flex-shrink-0 mt-0 lg:mt-[2rem] mx-auto lg:mx-0">
                     <img 
                       src="/Group 759.png" 
                       alt="QuickShaw Auto Service" 
@@ -117,14 +121,14 @@ export default function Offering(){
                </div>
 
                 {/* this is ensuring safety */}
-               <div className="mt-[3rem] sm:mt-[5rem] lg:mt-[8.313rem] w-full h-[484px] bg-white overflow-hidden flex justify-between items-start  px-[2%] sm:px-[4%] lg:px-[6%] xl:px-[8%]">
+               <div className="mt-[3rem] sm:mt-[5rem] lg:mt-[8.313rem] w-full min-h-[300px] sm:min-h-[400px] lg:h-[484px] bg-white overflow-hidden flex flex-col lg:flex-row justify-between items-start gap-[2rem] lg:gap-0 px-[2%] sm:px-[4%] lg:px-[6%] xl:px-[8%]">
                     
                     {/* SOS Image - Responsive */}
-                    <div className="w-[45vw] sm:w-[40vw] md:w-[35vw] lg:w-[32.0625rem]
+                    <div className="w-full sm:w-[60vw] md:w-[50vw] lg:w-[32.0625rem]
                                   h-[20vh] sm:h-[22vh] md:h-[25vh] lg:h-[26.25rem]
                                   min-w-[200px] max-w-[600px]
                                   min-h-[150px] max-h-[500px]
-                                  flex-shrink-0 mt-[2rem]">
+                                  flex-shrink-0 mt-0 lg:mt-[2rem] order-1 lg:order-1 mx-auto lg:mx-0">
                       <img 
                         src="/sos.png" 
                         alt="SOS Emergency Service" 
@@ -133,14 +137,14 @@ export default function Offering(){
                     </div>
 
                     {/* Ensuring Safety Text - Top Left of Parent */}
-                    <div className="flex justify-start items-start flex-1 flex-col pr-[2rem]">
+                    <div className="flex justify-start items-start flex-1 flex-col pr-[2rem] order-2 lg:order-2">
                         <div className="w-full max-w-[80%] font-extrabold font-[Archivo] 
                                       text-[2rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem]
                                       text-left text-black
-                                      leading-[1.2] tracking-[0.02em] ml-[10.375rem] mb-[1rem]">
+                                      leading-[1.2] tracking-[0.02em] ml-0 lg:ml-[10.375rem] mb-[1rem]">
                             Ensuring Safety
                         </div>
-                        <div className="w-full max-w-[80%] ml-[10.375rem] mt-[2.5rem]">
+                        <div className="w-full max-w-[80%] ml-0 lg:ml-[10.375rem] mt-[2.5rem]">
                             <span className="text-[1.5rem] sm:text-[1.8rem] lg:text-[2rem] font-medium text-black leading-[1.4] tracking-[0.05em]">Full-time access to nearest emergency contact facilities like Police stations, proctor office, ambulance, & post-ride feedback facility for every driver.</span>
                             <Buttons 
                 width="clamp(200px, 50vw, 400px)"
@@ -190,11 +194,11 @@ export default function Offering(){
                 </div>
 
                 {/* QuickShaw Auto Service Image - Responsive */}
-                <div className="w-[45vw] sm:w-[40vw] md:w-[35vw] lg:w-[32.0625rem]
+                <div className="w-full sm:w-[60vw] md:w-[50vw] lg:w-[32.0625rem]
                               h-[20vh] sm:h-[22vh] md:h-[25vh] lg:h-[26.25rem]
                               min-w-[200px] max-w-[600px]
                               min-h-[150px] max-h-[500px]
-                              flex-shrink-0 mt-[2rem]">
+                              flex-shrink-0 mt-0 lg:mt-[2rem] mx-auto lg:mx-0">
                     <img 
                       src="/Group502.png" 
                       alt="QuickShaw Auto Service" 
