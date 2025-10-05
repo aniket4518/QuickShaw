@@ -5,20 +5,16 @@ import Image from 'next/image'
 export default function ComplaintSuccess({ onClose }) {
     return (
         <div className="w-full min-h-screen bg-white">
-            {/* Navbar */}
+          
             
             
-            {/* Main Content */}
+            
             <div className="w-full px-[4%] py-[2rem]">
                 <div className="max-w-[600px] mx-auto text-center">
-                    {/* Header */}
                     <h2 className="text-[1.5rem] font-bold text-black mb-[3rem] font-Archivo">
                         Complaint Section
-                    </h2>
-
-                    {/* Concentric Circles with Tick */}
-                    <div className="flex items-center justify-center mb-[3rem]">
-                        {/* Outer Circle */}
+                    </h2> 
+                    <div className="flex items-center justify-center mb-[3rem]"> 
                         <div 
                             className="flex items-center justify-center rounded-full relative"
                             style={{

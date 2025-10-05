@@ -1,8 +1,8 @@
 "use client"
 import { useState } from 'react'
-import Footer from '../Components/Footer'
-import Buttons from '../Components/ui/Button'
-import ComplaintForm from '../Components/ComplaintForm'
+import Footer from '../../Components/Footer'
+import Buttons from '../../Components/ui/Button'
+import ComplaintForm from '../../Components/ComplaintForm'
 
 export default function Report(){
     const [showComplaintForm, setShowComplaintForm] = useState(false)

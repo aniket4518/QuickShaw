@@ -76,15 +76,14 @@ export default function ComplaintForm({ onClose }:any) {
                 </div>
             </div>
 
-            {/* Main Content */}
+          
             <div className="w-full px-[4%]">
-                <div className="max-w-[900px] mx-auto">
-                    {/* Rides List */}
-                    <div className="space-y-[1.5rem]">
+                <div className="max-w-[900px] mx-auto"> 
+                         <div className="space-y-[1.5rem]">
                         {rides.map((ride) => (
                             <div key={ride.id} className="bg-[rgba(254,248,231,1)] rounded-lg p-[1.5rem] border-2 border-blue-500">
                                 
-                                {/* Top Row - From/To with Icons */}
+                               
                                 <div className="grid grid-cols-2 gap-[2rem] mb-[1rem]">
                                     <div className="flex items-center">
                                         <span className="text-[1rem] font-semibold text-black mr-[1rem]">From:</span>
@@ -133,16 +132,14 @@ export default function ComplaintForm({ onClose }:any) {
                                     <div>
                                         <div className="text-[0.875rem] font-semibold text-black mb-[0.25rem]">Vehicle number:</div>
                                         <div className="text-[0.875rem] text-gray-700">{ride.vehicleNumber}</div>
-                                    </div>
-
-                                    {/* Fare Amount */}
+                                    </div> 
                                     <div>
                                         <div className="text-[0.875rem] font-semibold text-black mb-[0.25rem]">Fare amount paid:</div>
                                         <div className="text-[0.875rem] text-gray-700">{ride.fare}</div>
                                     </div>
                                 </div>
 
-                                {/* Bottom Row - Ride shared by and Time with Raise Complaint Button */}
+                                 
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center space-x-[2rem]">
                                         <div>
@@ -159,7 +156,7 @@ export default function ComplaintForm({ onClose }:any) {
                                         </div>
                                     </div>
                                     
-                                    {/* Raise Complaint Button */}
+                                     
                                     <button
                                         onClick={() => handleRaiseComplaint(ride.id)}
                                         className="bg-[#FFB800] hover:bg-[#E6A600] text-black font-bold text-[0.875rem]

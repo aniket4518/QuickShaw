@@ -95,13 +95,13 @@ export default function ComplaintSection({ rideData, onBack }: ComplaintSectionP
                             <div className="max-w-[680px] mx-auto">
                                 {/* Driver Card (matches mock) */}
                                 <div className="relative overflow-hidden rounded-lg p-6 mb-6 border border-[#F0DFAE] bg-white">
-                                    {/* top black curve image - Rectangle 710.png from public folder */}
+                                    
                                     <div className="absolute left-0 top-0 w-full h-[72px] -z-10">
                                         <img src="/Rectangle 710.png" alt="curve" className="w-full h-full object-cover"/>
                                     </div>
 
                                     <div className="flex items-start gap-6">
-                                        {/* avatar placeholder */}
+                                        
                                         <div className="w-[120px] h-[120px] bg-[#efefef] rounded-sm flex-shrink-0" />
 
                                         <div className="flex-1 text-[0.95rem]">
@@ -126,9 +126,7 @@ export default function ComplaintSection({ rideData, onBack }: ComplaintSectionP
                                             <div className="mt-6 text-[0.95rem]">Valid upto : xx xx xxxx</div>
                                         </div>
                                     </div>
-                                </div>
-
-                                {/* Type of Complaint Section (cream) */}
+                                </div> 
                                 <div className="bg-[#FFF7E0] rounded-lg p-6 border border-[#F0DFAE]">
                                     <h3 className="text-[1.125rem] font-bold text-black mb-6">Type of Complaint</h3>
 
