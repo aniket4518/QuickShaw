@@ -1,3 +1,4 @@
+"use client"
 import Navbar from "./Navbar"
 import Offering from "./Offering"
 import Download from "./Download"

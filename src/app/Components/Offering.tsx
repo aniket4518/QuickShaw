@@ -1,4 +1,5 @@
- import Buttons from "./ui/Button";
+"use client"
+import Buttons from "./ui/Button";
 export default function Offering(){
     return(
         <div className="w-full min-h-screen bg-white    overflow-x-hidden">
