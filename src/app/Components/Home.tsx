@@ -95,11 +95,11 @@ export default function Home() {
 
          <Link href="/ride"> 
         <button 
-          className="h-[12vh] sm:h-[14vh] lg:h-[16vh] min-h-[80px] max-h-[140px]
-                     w-[90%] max-w-[56.9375rem] 
-                     sm:w-[70%] 
-                     md:w-[65%] 
-                     lg:w-[60%] 
+          className="h-[9vh] sm:h-[11vh] md:h-[13vh] lg:h-[15vh] min-h-[60px] max-h-[140px]
+                     w-full max-w-[56.9375rem]  
+                     sm:w-[100%] 
+                     md:w-[100%] 
+                     lg:w-[100%] 
                      xl:w-[56.9375rem]
                      bg-[rgba(252,182,7,1)] hover:bg-yellow-500 
                      text-black font-bold 

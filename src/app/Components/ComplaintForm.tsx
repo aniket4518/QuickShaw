@@ -100,9 +100,9 @@ export default function ComplaintForm({ onClose }:any) {
                             <div key={ride.id} className="bg-[rgba(254,248,231,1)] rounded-lg p-[1.5rem] border-2 border-blue-500">
                                 
                                
-                                <div className="grid grid-cols-2 gap-[2rem] mb-[1rem]">
-                                    <div className="flex items-center">
-                                        <span className="text-[1rem] font-semibold text-black mr-[1rem]">From:</span>
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] mb-[1rem]">
+                                    <div className="flex items-start md:items-center flex-col md:flex-row">
+                                        <span className="text-[1rem] font-semibold text-black mr-[1rem] mb-[0.5rem] md:mb-0">From:</span>
                                         <div className="flex items-center">
                                             <svg className="w-[16px] h-[16px] text-black mr-[0.5rem]" fill="currentColor" viewBox="0 0 20 20">
                                                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
@@ -110,8 +110,8 @@ export default function ComplaintForm({ onClose }:any) {
                                             <span className="text-[0.875rem] text-gray-700">{ride.from}</span>
                                         </div>
                                     </div>
-                                    <div className="flex items-center">
-                                        <span className="text-[1rem] font-semibold text-black mr-[1rem]">To:</span>
+                                    <div className="flex items-start md:items-center flex-col md:flex-row">
+                                        <span className="text-[1rem] font-semibold text-black mr-[1rem] mb-[0.5rem] md:mb-0">To:</span>
                                         <div className="flex items-center">
                                             <svg className="w-[16px] h-[16px] text-black mr-[0.5rem]" fill="currentColor" viewBox="0 0 20 20">
                                                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
@@ -122,7 +122,7 @@ export default function ComplaintForm({ onClose }:any) {
                                 </div>
 
                                 {/* Second Row - Vehicle, Driver, Vehicle Number, Fare */}
-                                <div className="grid grid-cols-4 gap-[1rem] items-center mb-[1rem]">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1rem] items-start mb-[1rem]">
                                     {/* Vehicle with Auto Image */}
                                     <div className="flex items-center">
                                         <img 
@@ -156,8 +156,8 @@ export default function ComplaintForm({ onClose }:any) {
                                 </div>
 
                                  
-                                <div className="flex items-center justify-between">
-                                    <div className="flex items-center space-x-[2rem]">
+                                <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-[1rem]">
+                                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-[1rem] sm:space-x-[2rem]">
                                         <div>
                                             <span className="text-[0.875rem] font-semibold text-black">Ride shared by: </span>
                                             <span className="text-[0.875rem] text-gray-700">{ride.sharedBy}</span>
@@ -177,7 +177,9 @@ export default function ComplaintForm({ onClose }:any) {
                                         onClick={() => handleRaiseComplaint(ride.id)}
                                         className="bg-[#FFB800] hover:bg-[#E6A600] text-black font-bold text-[0.875rem]
                                                  px-[1.5rem] py-[0.75rem] rounded
-                                                 transition-colors duration-300"
+                                                 transition-colors duration-300
+                                                 w-full md:w-auto
+                                                 whitespace-nowrap"
                                     >
                                         Raise a complaint
                                     </button>
