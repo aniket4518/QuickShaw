@@ -9,9 +9,7 @@ export default function Login(){
     }
 
     return(
-        <div className="w-full min-h-screen bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center px-[4%] py-[2rem]">
-            
-            {/* Main Content Container - No background, just shadow for definition */}
+        <div className="w-full min-h-screen bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center px-[4%] py-[2rem]"> 
             <div className="w-full max-w-[400px] sm:max-w-[450px] lg:max-w-[500px]    p-[2rem] sm:p-[2.5rem] lg:p-[3rem]">
                 
                 {/* Heading */}
@@ -22,9 +20,7 @@ export default function Login(){
                 </div>
 
                 {/* Form Container */}
-                <div className="w-full">
-                    
-                    {/* Phone/Email Input */}
+                <div className="w-full"> 
                     <div className="mb-[1.5rem] sm:mb-[2rem]">
                         <input 
                             type="text"
@@ -37,9 +33,7 @@ export default function Login(){
                                      focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent
                                      transition-all duration-300 bg-white"
                         />
-                    </div>
-
-                    {/* Continue Button */}
+                    </div> 
                     <div className="mb-[1.5rem] sm:mb-[2rem]">
                         <button 
                             onClick={handleContinue}
@@ -52,9 +46,7 @@ export default function Login(){
                                      cursor-pointer">
                             Continue
                         </button>
-                    </div>
-
-                    {/* "or" Divider */}
+                    </div> 
                     <div className="flex items-center justify-center mb-[1.5rem] sm:mb-[2rem]">
                         <div className="flex-grow h-[1px] bg-gray-300"></div>
                         <span className="px-[1rem] text-[0.9rem] sm:text-[1rem] text-gray-600 font-medium">
@@ -76,9 +68,7 @@ export default function Login(){
                             <img src="/google.png" alt="Google" className="w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] flex-shrink-0" />
                             Continue with Google
                         </button>
-                    </div>
-
-                    {/* Terms and Conditions */}
+                    </div> 
                     <div className="text-center flex bg-gray-200/50 content-center justify-center  ">
                      <img src="/Group 666.png" alt="is that " className="w-[15px] h-[25px] content-center justify-center m-5 mr-1"/>
                         <p className="text-[0.75rem] sm:text-[0.8rem] lg:text-[0.85rem] text-gray-600 leading-relaxed pt-5 pb-5 ">

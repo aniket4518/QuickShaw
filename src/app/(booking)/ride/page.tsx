@@ -18,38 +18,26 @@ export default function Ride(){
     }
 
     return (
-        <div className="w-full min-h-screen bg-white">
-            {/* Main Content Container */}
-            <div className="px-4 sm:px-6 lg:px-8 py-6 lg:py-8">
-                
-                {/* Desktop Horizontal Layout */}
-                <div className="hidden lg:flex gap-3 xl:gap-8">
-                    
-                    {/* Left Column - Ride Details */}
+        <div className="w-full min-h-screen bg-white"> 
+            <div className="px-4 sm:px-6 lg:px-8 py-6 lg:py-8"> 
+                 <div className="hidden lg:flex gap-3 xl:gap-8">
+                     
                     <div className="w-[350px] flex-shrink-0">
                         <div className="mb-8">
-                            <h2 className="text-[28px] xl:text-[32px] font-bold text-black mb-5">Ride details</h2>
-                            
-                            {/* Pickup Location */}
+                            <h2 className="text-[28px] xl:text-[32px] font-bold text-black mb-5">Ride details</h2> 
                             <div className="flex items-start gap-3 mb-3">
                                 <div className="w-4 h-4 bg-black rounded-full mt-1.5 flex-shrink-0"></div>
                                 <div className="flex-1">
                                     <p className="text-[15px] text-black leading-tight">Aryabhatta Hostel, IIT BHU, V...</p>
                                 </div>
-                            </div>
-
-                            {/* Vertical dotted line */}
-                            <div className="ml-2 border-l-2 border-dotted border-gray-400 h-4"></div>
-
-                            {/* Drop Location */}
+                            </div> 
+                            <div className="ml-2 border-l-2 border-dotted border-gray-400 h-4"></div> 
                             <div className="flex items-start gap-3 mb-5">
                                 <div className="w-4 h-4 border-2 border-black bg-white rounded-full mt-1.5 flex-shrink-0"></div>
                                 <div className="flex-1">
                                     <p className="text-[15px] text-black leading-tight">Varanasi Junction, Cant, Vara...</p>
                                 </div>
-                            </div>
-
-                            {/* Schedule & For Me Buttons */}
+                            </div> 
                             <div className="flex flex-wrap gap-3 mt-4">
                                 <button className="flex items-center gap-2 px-4 py-2.5 bg-gray-100 rounded-full text-black text-sm font-medium hover:bg-gray-200 transition-colors">
                                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -83,8 +71,7 @@ export default function Ride(){
                                         </div>
                                         <p className="text-base text-black font-normal">Add 1 more passenger...</p>
                                     </div>
-
-                                    {/* Passenger Counter */}
+ 
                                     <div className="flex items-center justify-center gap-3">
                                         <button 
                                             onClick={decrementPassenger}

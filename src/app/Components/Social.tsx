@@ -1,7 +1,7 @@
 export default function Social(){
     return(
         <div className="w-full py-[3rem] sm:py-[4rem] lg:py-[6rem] px-[4%] bg-white">
-            {/* Header */}
+      
             <div className="text-center mb-[2rem] sm:mb-[3rem] lg:mb-[4rem]">
                 <h2 className="text-[2rem] sm:text-[2.5rem] lg:text-[3rem] xl:text-[3.5rem] font-bold text-black font-[Archivo]  ">
                     Be a part of us!
@@ -50,9 +50,7 @@ export default function Social(){
                     {/* Button */}
                     <button className="bg-[#FFB800] hover:bg-[#E6A600] text-black font-medium py-[0.75rem] px-[2rem] sm:px-[2.5rem] rounded-[0.5rem] text-[0.9rem] sm:text-[1rem] transition-colors duration-300 mb-[1rem] sm:mb-[1.5rem]">
                         Visit page
-                    </button>
-                    
-                    {/* Description */}
+                    </button> 
                     <p className="text-[0.85rem] sm:text-[0.9rem] lg:text-[1rem] text-gray-700 leading-relaxed">
                         Watch out the new feature selection and some of the pictures and posts of QuickShaw
                     </p>

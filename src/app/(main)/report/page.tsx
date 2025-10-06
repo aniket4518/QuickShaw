@@ -21,10 +21,10 @@ export default function Report(){
                 <ComplaintForm onClose={handleCloseComplaint} />
             ) : (
                 <>
-                    {/* Hero Section with Background Image */}
+               
                     <div className="relative w-full min-h-screen bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center px-4 sm:px-6 md:px-8 lg:px-[4%] py-8 sm:py-12 md:py-16 lg:py-[2rem]">
                         <div className="text-center mx-auto max-w-7xl w-full">
-                            {/* Main Heading */}
+                       
                             <h1 className="font-Archivo font-black text-center mb-8 sm:mb-12 md:mb-16 lg:mb-[3rem] xl:mb-[5rem] text-[rgba(59,33,10,1)]
                                          text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[7.5rem]
                                          leading-tight sm:leading-tight md:leading-tight
@@ -32,8 +32,7 @@ export default function Report(){
                                 A safe mobility<br/>
                                 platform is here
                             </h1>
-
-                            {/* Raise Complaint Button */}
+ 
                             <div className="flex justify-center px-4">
                                 <Buttons
                                     onClick={handleRaiseComplaint}
@@ -83,21 +82,17 @@ export default function Report(){
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                 </div>
-
-                
-                
-                {/* Glowing Ellipse Gradient - Layered on top */}
+ 
+              
                 
             </div>
-
-            {/* Tap Safe Now Section */}
+ 
             <div className="relative w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[6rem] px-4 sm:px-6 md:px-8 lg:px-[6.2%] mb-12 sm:mb-16 md:mb-20 lg:mb-[5rem] overflow-hidden">
                 <div className="max-w-[1200px] mx-auto relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
                         
-                        {/* Left Content */}
                         <div className="space-y-8 sm:space-y-12 md:space-y-16 lg:space-y-20 order-2 lg:order-1">
-                            {/* Main Heading */}
+                        
                             <h2 className="font-Archivo font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[3.5rem] 
                                          text-black leading-tight pl-0 sm:pl-4 lg:pl-[1rem] text-center lg:text-left">
                                 Tap safe now
@@ -111,10 +106,9 @@ export default function Report(){
                                 </p>
                             </div>
                         </div>
-
-                        {/* Right Content - Phone Mockup */}
+ 
                         <div className="flex justify-center lg:justify-end relative order-1 lg:order-2">
-                            {/* Phone Image */}
+                         
                             <div className="relative z-20">
                                 <img 
                                     src="/phone.png" 
@@ -126,7 +120,7 @@ export default function Report(){
                     </div>
                 </div>
   
-                {/* Decorative Cross - Hidden on mobile */}
+            
                 <div className="absolute top-4 left-4 sm:left-6 md:left-9 hidden md:block">
                     <img 
                         src="/cross.png" 
@@ -143,8 +137,7 @@ export default function Report(){
                         className="w-full h-auto object-cover opacity-30"
                     />
                 </div>
-                
-                {/* Glowing Ellipse Gradient - Layered on top */}
+               
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[150%] h-40 sm:h-48 md:h-56 lg:h-64 xl:h-80 pointer-events-none z-[1]">
                     <img 
                         src="/elipsegraident.png" 
@@ -154,21 +147,20 @@ export default function Report(){
                 </div>
             </div>
 
-            {/* Share Your Ride Section */}
+            
             <div className="relative w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[10rem] px-4 sm:px-6 md:px-8 lg:px-[4%] mb-12 sm:mb-16 md:mb-20 lg:mb-[5rem] overflow-hidden">
                 <div className="max-w-[1200px] mx-auto relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
                         
                         {/* Left Content */}
                         <div className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12 order-2 lg:order-1">
-                            {/* Main Heading */}
+                      
                             <h2 className="font-Archivo font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[3.5rem] 
                                          text-black leading-tight text-center lg:text-left">
                                 share<br/>
                                 your ride
                             </h2>
-
-                            {/* Yellow Info Box */}
+ 
                             <div className="bg-[#FFD66F] rounded-2xl p-6 sm:p-8 md:p-10 lg:p-[2.5rem] relative w-full max-w-[452px] mx-auto lg:mx-0">
                                 <p className="font-Archivo text-sm sm:text-base md:text-lg lg:text-xl xl:text-[1.25rem] 
                                            text-black leading-relaxed font-medium">
@@ -190,8 +182,7 @@ export default function Report(){
                         </div>
                     </div>
                 </div>
-
-                {/* Cross Lines Top Left - Hidden on mobile */}
+ 
                 <div className="absolute top-0 left-0 pointer-events-none hidden md:block">
                     <img 
                         src="/cross.png" 
@@ -199,8 +190,7 @@ export default function Report(){
                         className="w-32 sm:w-40 md:w-48 lg:w-56 xl:w-[300px] h-auto object-cover opacity-60"
                     />
                 </div>
-
-                {/* Original Ellipse Background */}
+ 
                 <div className="absolute bottom-0 left-0 w-full pointer-events-none z-0">
                     <img 
                         src="/Ellipse 144@2x.png" 
@@ -208,8 +198,7 @@ export default function Report(){
                         className="w-full h-auto object-cover opacity-30"
                     />
                 </div>
-                
-                {/* Glowing Ellipse Gradient - Layered on top */}
+                 
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[150%] h-40 sm:h-48 md:h-56 lg:h-64 xl:h-80 pointer-events-none z-[1]">
                     <img 
                         src="/elipsegraident.png" 
@@ -217,9 +206,7 @@ export default function Report(){
                         className="w-full h-full object-contain object-bottom opacity-80"
                     />
                 </div>
-            </div>
-
-            {/* Trusted Drivers Section */}
+            </div> 
             <div className="relative w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[10rem] px-4 sm:px-6 md:px-8 lg:px-[4%] mb-12 sm:mb-16 md:mb-20 lg:mb-[5rem] overflow-hidden">
                 <div className="max-w-[1200px] mx-auto relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
@@ -232,19 +219,15 @@ export default function Report(){
                                 trusted<br/>
                                 drivers
                             </h2>
-
-                            {/* Yellow Info Box */}
+ 
                             <div className="bg-[#FFD66F] rounded-2xl p-6 sm:p-8 md:p-10 lg:p-[2.5rem] relative w-full max-w-[452px] mx-auto lg:mx-0">
                                 <p className="font-Archivo text-sm sm:text-base md:text-lg lg:text-xl xl:text-[1.25rem] 
                                            text-black leading-relaxed font-medium">
                                     Before your ride arrives, your safety is already taken care of, with verified profiles, live monitoring, & safeguards built to help every journey worry-free.
                                 </p>
                             </div>
-                        </div>
-
-                        {/* Right Content - Group Image */}
-                        <div className="flex justify-center lg:justify-end relative order-1 lg:order-2">
-                            {/* Group Image with Yellow Platform */}
+                        </div> 
+                        <div className="flex justify-center lg:justify-end relative order-1 lg:order-2"> 
                             <div className="relative z-20">
                                 <img 
                                     src="/Group 652 (1).png" 
@@ -254,18 +237,14 @@ export default function Report(){
                             </div>
                         </div>
                     </div>
-                </div>
-
-                {/* Cross Lines Bottom Right - Hidden on mobile */}
+                </div> 
                 <div className="absolute bottom-0 right-0 pointer-events-none hidden md:block">
                     <img 
                         src="/cross2.png" 
                         alt="Decorative curves bottom right" 
                         className="w-32 sm:w-40 md:w-48 lg:w-56 xl:w-[300px] h-auto object-cover opacity-60"
                     />
-                </div>
-
-                {/* Original Ellipse Background */}
+                </div> 
                 <div className="absolute bottom-0 left-0 w-full pointer-events-none z-0">
                     <img 
                         src="/Ellipse 144@2x.png" 
@@ -273,8 +252,7 @@ export default function Report(){
                         className="w-full h-auto object-cover opacity-30"
                     />
                 </div>
-                
-                {/* Glowing Ellipse Gradient - Layered on top */}
+                 
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[150%] h-40 sm:h-48 md:h-56 lg:h-64 xl:h-80 pointer-events-none z-[1]">
                     <img 
                         src="/elipsegraident.png" 
@@ -298,8 +276,7 @@ export default function Report(){
                             when you're <span className="font-bold text-[#8B4513]">by yourself</span>.
                         </p>
                     </div>
-
-                    {/* Bottom Message */}
+ 
                     <div className="space-y-4 sm:space-y-6 md:space-y-8 px-4">
                         <h3 className="font-Archivo font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[3rem] 
                                      text-[#FFB800] leading-tight">
@@ -312,9 +289,7 @@ export default function Report(){
                             your security.
                         </p>
                     </div>
-                </div>
-
-                {/* Original Ellipse Background */}
+                </div> 
                 <div className="absolute bottom-0 left-0 w-full pointer-events-none z-0">
                     <img 
                         src="/Ellipse 144@2x.png" 
@@ -322,8 +297,7 @@ export default function Report(){
                         className="w-full h-auto object-cover opacity-30"
                     />
                 </div>
-                
-                {/* Glowing Ellipse Gradient - Layered on top */}
+                 
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[150%] h-40 sm:h-48 md:h-56 lg:h-64 xl:h-80 pointer-events-none z-[1]">
                     <img 
                         src="/elipsegraident.png" 

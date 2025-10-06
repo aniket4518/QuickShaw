@@ -29,7 +29,7 @@ export default function Home() {
                         gap-[3vh] sm:gap-[4vh] lg:gap-[5vh] 
                         mt-[5vh] w-[95%] max-w-[60rem] relative">
     
-          {/* From Input Box */}
+       
           <div className="relative w-full sm:w-1/2 max-w-[26.875rem]">
             <input 
               className="w-full 
@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
           
-          {/* Dotted Line - Hidden on Mobile, Visible on Desktop */}
+         
           <div className="hidden sm:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-5">
             <div className="w-[2vh] lg:w-[10vh] h-[2px] border-t-2 border-black border-dotted"></div>
           </div>
@@ -85,8 +85,7 @@ export default function Home() {
             <div className="hidden sm:block absolute left-[10px] sm:left-[8px] top-1/2 transform -translate-y-1/2 z-10">
               <div className="w-[10px] h-[10px] sm:w-[12px] sm:h-[12px] bg-black rounded-full"></div>
             </div>
-             
-            {/* To Icon */}
+           
             <div className="absolute left-[2vw] sm:left-[1.5vw] lg:left-[1.2vw] top-1/2 transform -translate-y-1/2">
               <div className="w-[2vw] h-[2vw] sm:w-[1.5vw] sm:h-[1.5vw] lg:w-[1.2vw] lg:h-[1.2vw] min-w-[20px] min-h-[20px] max-w-[20px] max-h-[20px] bg-[url('/to.png')] bg-contain bg-center bg-no-repeat pl-8"></div>
             </div>
