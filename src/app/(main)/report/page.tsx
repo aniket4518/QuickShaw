@@ -89,7 +89,7 @@ export default function Report(){
  
             <div className="relative w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[6rem] px-4 sm:px-6 md:px-8 lg:px-[6.2%] mb-12 sm:mb-16 md:mb-20 lg:mb-[5rem] overflow-hidden">
                 <div className="max-w-[1200px] mx-auto relative z-10">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center pb-20 sm:pb-24 md:pb-28 lg:pb-32 xl:pb-40">
                         
                         <div className="space-y-8 sm:space-y-12 md:space-y-16 lg:space-y-20 order-2 lg:order-1">
                         
@@ -150,7 +150,7 @@ export default function Report(){
             
             <div className="relative w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[10rem] px-4 sm:px-6 md:px-8 lg:px-[4%] mb-12 sm:mb-16 md:mb-20 lg:mb-[5rem] overflow-hidden">
                 <div className="max-w-[1200px] mx-auto relative z-10">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center pb-20 sm:pb-24 md:pb-28 lg:pb-32 xl:pb-40">
                         
                         {/* Left Content */}
                         <div className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12 order-2 lg:order-1">
@@ -209,7 +209,7 @@ export default function Report(){
             </div> 
             <div className="relative w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[10rem] px-4 sm:px-6 md:px-8 lg:px-[4%] mb-12 sm:mb-16 md:mb-20 lg:mb-[5rem] overflow-hidden">
                 <div className="max-w-[1200px] mx-auto relative z-10">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center pb-20 sm:pb-24 md:pb-28 lg:pb-32 xl:pb-40">
                         
                         {/* Left Content */}
                         <div className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12 order-2 lg:order-1">
