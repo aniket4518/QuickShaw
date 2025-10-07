@@ -227,15 +227,7 @@ export default function Report(){
                                 </p>
                             </div>
                         </div> 
-                        <div className="flex justify-center lg:justify-end relative order-1 lg:order-2"> 
-                            <div className="relative z-20">
-                                <img 
-                                    src="/Group 652 (1).png" 
-                                    alt="Trusted drivers - Group of people" 
-                                    className="w-[280px] sm:w-[320px] md:w-[380px] lg:w-[420px] xl:w-[440px] h-auto object-contain"
-                                />
-                            </div>
-                        </div>
+                        
                     </div>
                 </div> 
                 <div className="absolute bottom-0 right-0 pointer-events-none hidden md:block">
