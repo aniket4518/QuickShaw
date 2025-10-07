@@ -19,7 +19,7 @@ export default function Offering(){
                             <img 
                                 src="/Frame1.png" 
                                 alt="Frame 1" 
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                             />
                         </div>
 
@@ -28,7 +28,7 @@ export default function Offering(){
                             <img 
                                 src="/Frame2.png" 
                                 alt="Frame 2" 
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                             />
                         </div>
 
@@ -37,7 +37,7 @@ export default function Offering(){
                             <img 
                                 src="/Frame3.png" 
                                 alt="Frame 3" 
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                             />
                         </div>
 
@@ -46,7 +46,7 @@ export default function Offering(){
                             <img 
                                 src="/Frame4.png" 
                                 alt="Frame 4" 
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                             />
                         </div>
 
@@ -55,7 +55,7 @@ export default function Offering(){
                             <img 
                                 src="/Frame1.png" 
                                 alt="Frame 5" 
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                             />
                         </div>
 
@@ -64,7 +64,7 @@ export default function Offering(){
                             <img 
                                 src="/Frame2.png" 
                                 alt="Frame 6" 
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                             />
                         </div>
                         
