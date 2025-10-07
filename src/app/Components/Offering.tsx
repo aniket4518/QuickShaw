@@ -15,56 +15,56 @@ export default function Offering(){
                     <div className="flex flex-row gap-[0.75rem] sm:gap-[1rem] lg:gap-[1.375rem] min-h-[30vh] sm:min-h-[40vh] lg:min-h-[50vh]">
                         
                         {/* Card 1 */}
-                        <div className="flex-shrink-0 w-[40%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[18rem] sm:h-[16rem] md:h-[18rem] lg:h-[20rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 min-h-[120px]">
+                        <div className="flex-shrink-0 w-[65%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[22rem] sm:h-[20rem] md:h-[22rem] lg:h-[24rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                             <img 
                                 src="/Frame1.png" 
                                 alt="Frame 1" 
-                                className="w-full h-full object-contain"
+                                className="w-full h-full object-cover"
                             />
                         </div>
 
                         {/* Card 2 */}
-                        <div className="flex-shrink-0 w-[40%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%]  h-[18rem] sm:h-[16rem] md:h-[18rem] lg:h-[20rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 min-h-[120px]">
+                        <div className="flex-shrink-0 w-[65%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[22rem] sm:h-[20rem] md:h-[22rem] lg:h-[24rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                             <img 
                                 src="/Frame2.png" 
                                 alt="Frame 2" 
-                                className="w-full h-full object-contain"
+                                className="w-full h-full object-cover"
                             />
                         </div>
 
                         {/* Card 3 */}
-                        <div className="flex-shrink-0 w-[40%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[18rem] sm:h-[16rem] md:h-[18rem] lg:h-[20rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 min-h-[120px]">
+                        <div className="flex-shrink-0 w-[65%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[22rem] sm:h-[20rem] md:h-[22rem] lg:h-[24rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                             <img 
                                 src="/Frame3.png" 
                                 alt="Frame 3" 
-                                className="w-full h-full object-contain"
+                                className="w-full h-full object-cover"
                             />
                         </div>
 
                         {/* Card 4 */}
-                        <div className="flex-shrink-0 w-[40%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%]  h-[18rem] sm:h-[16rem] md:h-[18rem] lg:h-[20rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 min-h-[120px]">
+                        <div className="flex-shrink-0 w-[65%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[22rem] sm:h-[20rem] md:h-[22rem] lg:h-[24rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                             <img 
                                 src="/Frame4.png" 
                                 alt="Frame 4" 
-                                className="w-full h-full object-contain"
+                                className="w-full h-full object-cover"
                             />
                         </div>
 
                         {/* Card 5 - New */}
-                        <div className="flex-shrink-0 w-[40%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[18rem] sm:h-[16rem] md:h-[18rem] lg:h-[20rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 min-h-[120px]">
+                        <div className="flex-shrink-0 w-[65%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[22rem] sm:h-[20rem] md:h-[22rem] lg:h-[24rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                             <img 
                                 src="/Frame1.png" 
                                 alt="Frame 5" 
-                                className="w-full h-full object-contain"
+                                className="w-full h-full object-cover"
                             />
                         </div>
 
                         {/* Card 6 - New */}
-                        <div className="flex-shrink-0 w-[40%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[18rem] sm:h-[16rem] md:h-[18rem] lg:h-[20rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300 min-h-[120px]">
+                        <div className="flex-shrink-0 w-[65%] sm:w-[35%] md:w-[32%] lg:w-[30%] xl:w-[28%] h-[22rem] sm:h-[20rem] md:h-[22rem] lg:h-[24rem] xl:h-[28.5625rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                             <img 
                                 src="/Frame2.png" 
                                 alt="Frame 6" 
-                                className="w-full h-full object-contain"
+                                className="w-full h-full object-cover"
                             />
                         </div>
                         
